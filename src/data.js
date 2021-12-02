@@ -141,7 +141,7 @@ const ratingInput = useRef();
    
 }
       return (
-         <Router>
+         <Router  basename={window.location.pathname ||    ''}>
              
         <Route exact path='/'  render={() => {return (
         <div style={{marginTop:"8%",marginBottom:"15%"}}>
