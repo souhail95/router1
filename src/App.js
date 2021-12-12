@@ -6,7 +6,7 @@ import {BrowserRouter as Router} from 'react-router-dom'
 
 function App() {
   return (
-    <Router  basename={window.location.pathname ||    ''} >
+    <Router  basename="/router1" >
     <div>
        <header  className="box9"></header>
        <Data/>
